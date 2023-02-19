@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Facedetect } from "./component/Facedetect";
+import Postdetect from "./component/Postdetect";
+import { Humanapi } from "./component/Humanapi";
+import { Proctor } from "./component/Proctor";
+import { Speaker } from "./component/Speaker";
+// import CocoProcter from "./component/CocoProcter";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Facedetect /> */}
+      {/* <Postdetect/> */}
+      {/* <Humanapi/> */}
+      {/* <CocoProcter/> */}
+      {/* <Proctor/> */}
+      {/* <ObjectDetection/> */}
+      <Speaker/>
     </div>
   );
 }
-
 export default App;
